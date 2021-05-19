@@ -45,6 +45,44 @@ export const Navbar = styled.nav`
             background-color: var(--tertiary);
             color: var(--white);
         }
+
+        .dropdown {
+            position: relative;
+
+            .dropdown-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                width: 200px;
+                border-radius: 8px;
+                opacity: 0;
+                margin-top: 5px;
+                box-shadow: 1px 2px 0px 0.5px rgba(0, 0, 0, 0.2);
+            
+                a {
+                    padding: 10px;
+                }
+            }
+
+            &:hover {
+                .dropdown-links {
+                    display: flex;
+                    animation: showLinks 0.5s ease-out forwards;
+                }
+            }
+
+            @keyframes showLinks {
+                from {
+                    opacity: 0;
+                    transform: translateY(-5px)
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        }
     } 
 
 `;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import LogoImage from '../../Assets/images/logo_small.png'
 
 import { 
@@ -19,13 +19,21 @@ const Header = () => {
                         <NavLink to="/" activeClassName="pagina-ativa">Home</NavLink>
                     </li>
                     <li>
-                        <NavLink to="#" activeClassName="pagina-ativa">Empresa</NavLink>
+                        <NavLink to="/empresa" activeClassName="pagina-ativa">Empresa</NavLink>
                     </li>
                     <li>
-                        <NavLink to="#" activeClassName="pagina-ativa">Pentest</NavLink>
+                        <div className="dropdown">
+                            <NavLink to="/pentest" activeClassName="pagina-ativa">Pentest</NavLink>
+                            <div className="dropdown-links">
+                                <Link to="">O que é Pentest?</Link>
+                                <Link to="">Fases de um Pentest</Link>
+                                <Link to="">Tipos de Pentes</Link>
+                                <Link to="">Relatórios gerais e técnicos</Link>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <NavLink to="#" activeClassName="pagina-ativa">Contato</NavLink>
+                        <NavLink to="/contato" activeClassName="pagina-ativa">Contato</NavLink>
                     </li>
                 </ul>
             </Navbar>
