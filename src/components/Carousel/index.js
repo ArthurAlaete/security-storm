@@ -20,10 +20,12 @@ const Carrosel = () => {
           />
           <Carousel.Caption>
             <div className="carousel-texto">
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>O que é Pentest?</h3>
+              <p>O Pentest é uma forma de detectar e explorar vulnerabilidades nos sistemas, ou seja, 
+                simular ataques de hackers. Essas avaliações são úteis para validar 
+                a eficácia dos mecanismos de defesa do aplicativo e dos servidores por trás dele.</p>
             </div>
-            <Link to="" className="link">Saiba mais</Link>
+            <Link to="" className="carousel-link">Saiba mais</Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -35,10 +37,11 @@ const Carrosel = () => {
 
           <Carousel.Caption>
             <div className="carousel-texto">
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>Você pode está favorecendo um ataque hacker!</h3>
+              <p>Todo computador, seja ele um servidor web, um notebook ou até mesmo um smartphone, 
+                que esteja conectado à internet, está sujeito a sofrer ataque hacker.</p>
             </div>
-            <Link to="" className="link">Saiba mais</Link>
+            <Link to="" className="carousel-link">Saiba mais</Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -50,10 +53,11 @@ const Carrosel = () => {
 
           <Carousel.Caption>
             <div className="carousel-texto">
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>O que justifica realizar um pentest?</h3>
+              <p>Atualmente existem muitos casos de sequestro de dados através de vírus (ransomwares) em grandes e pequenas empresas, 
+                como farmácias e oficinas mecânicas, quem dirá escolas e repartições públicas.</p>
             </div>
-            <Link to="" className="link">Entenda melhor</Link>
+            <Link to="" className="carousel-link">Entenda melhor</Link>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
