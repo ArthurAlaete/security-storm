@@ -52,12 +52,14 @@ export const Navbar = styled.nav`
             .dropdown-links {
                 display: none;
                 flex-direction: column;
+                background-color: var(--white);
                 position: absolute;
                 width: 200px;
                 border-radius: 8px;
                 opacity: 0;
                 margin-top: 5px;
                 box-shadow: 1px 2px 0px 0.5px rgba(0, 0, 0, 0.2);
+                z-index: 1;
             
                 a {
                     padding: 10px;
