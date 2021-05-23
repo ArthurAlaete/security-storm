@@ -27,7 +27,7 @@ const Header = () => {
                             <div className="dropdown-links">
                                 <Link to="">O que é Pentest?</Link>
                                 <Link to="">Fases de um Pentest</Link>
-                                <Link to="">Tipos de Pentes</Link>
+                                <Link to="">Tipos de Pentest</Link>
                                 <Link to="">Relatórios gerais e técnicos</Link>
                             </div>
                         </div>

@@ -2,20 +2,20 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import { Link } from 'react-router-dom';
 
-import Carrosel01 from '../../Assets/images/carrosel/carrosel_01.jpg'
-import Carrosel02 from '../../Assets/images/carrosel/carrosel_02.jpg'
-import Carrosel03 from '../../Assets/images/carrosel/carrosel_03.png'
+import Carrossel01 from '../../Assets/images/carrossel/carrossel_01.jpg'
+import Carrossel02 from '../../Assets/images/carrossel/carrossel_02.jpg'
+import Carrossel03 from '../../Assets/images/carrossel/carrossel_03.png'
 
 import { Container } from './styles';
 
-const Carrosel = () => {
+const Carrossel = () => {
   return (
     <Container>
       <Carousel>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={Carrosel01}
+            src={Carrossel01}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -31,7 +31,7 @@ const Carrosel = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={Carrosel02}
+            src={Carrossel02}
             alt="Second slide"
           />
 
@@ -47,7 +47,7 @@ const Carrosel = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={Carrosel03}
+            src={Carrossel03}
             alt="Third slide"
           />
 
@@ -65,4 +65,4 @@ const Carrosel = () => {
   )
 }
 
-export default Carrosel;
+export default Carrossel;

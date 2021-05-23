@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from '../../components/Header';
-import Carrosel from '../../components/Carousel';
+import Carrossel from '../../components/Carrossel';
 
 import { Container } from './styles';
 
@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <Container>
             <Header />
-            <Carrosel />
+            <Carrossel />
         </Container>
     )
 }

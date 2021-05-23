@@ -48,6 +48,7 @@ export const Navbar = styled.nav`
 
         .dropdown {
             position: relative;
+            border-radius: 8px;
 
             .dropdown-links {
                 display: none;
@@ -57,9 +58,9 @@ export const Navbar = styled.nav`
                 width: 200px;
                 border-radius: 8px;
                 opacity: 0;
-                margin-top: 5px;
+                margin-top: 3px;
                 box-shadow: 1px 2px 0px 0.5px rgba(0, 0, 0, 0.2);
-                z-index: 1;
+                z-index: 2;
             
                 a {
                     padding: 10px;
@@ -91,7 +92,7 @@ export const Navbar = styled.nav`
 
 export const Logo = styled.img`
     width: 110px;
-    height: 100px;
+    height: 90px;
     margin: 0 20px;
 `;
 
