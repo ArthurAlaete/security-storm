@@ -35,7 +35,7 @@ const InfoContact = () => {
             <Email>
                 <EmailIcon />
                 <EmailInfo>
-                    <p>Corrêio eletrônico</p>
+                    <p>Correio eletrônico</p>
                     <span>securitystorm@gmail.com</span>
                 </EmailInfo>
             </Email>
