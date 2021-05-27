@@ -17,13 +17,13 @@ const cssIcon = css`
     height: 48px;
 `;
 
-const containersFilhos = css`
+const subContainers = css`
     display: flex;
     justify-content: center;
     align-items: center;
 `;
 
-const containerFilhosInfos = css`
+const subContainersInfos = css`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -43,7 +43,7 @@ const containerFilhosInfos = css`
 `;
 
 export const Telefone = styled.div`
-    ${containersFilhos}
+    ${subContainers}
 `;
 
 export const TelefoneIcon = styled(Phone)`
@@ -51,11 +51,11 @@ export const TelefoneIcon = styled(Phone)`
 `;
 
 export const TelefoneInfo = styled.div`
-        ${containerFilhosInfos}
+        ${subContainersInfos}
 `;
 
 export const Horarios = styled.div`
-    ${containersFilhos}
+    ${subContainers}
 `;
 
 export const HorariosIcon = styled(Clock)`
@@ -63,11 +63,11 @@ export const HorariosIcon = styled(Clock)`
 `;
 
 export const HorariosInfo = styled.div`
-    ${containerFilhosInfos}
+    ${subContainersInfos}
 `;
 
 export const Email = styled.div`
-    ${containersFilhos}
+    ${subContainers}
 `;
 
 export const EmailIcon = styled(EmailOutline)`
@@ -75,6 +75,6 @@ export const EmailIcon = styled(EmailOutline)`
 `;
 
 export const EmailInfo = styled.div`
-    ${containerFilhosInfos}
+    ${subContainersInfos}
 `;
 
