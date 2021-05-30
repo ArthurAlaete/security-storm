@@ -11,15 +11,30 @@ import {
 
 export const Container = styled.div`
     grid-area: infoServices;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 20px;
 `;
 
 export const ServicesContainer = styled.div`
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    width: 400px;
 `;
 
 export const ServiceInfo = styled.div`
-
-`;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+`; 
 
 
 export const cssIcons = css`
