@@ -16,7 +16,7 @@ const Header = () => {
             <Navbar>
                 <ul>
                     <li>
-                        <NavLink to="/" activeClassName="pagina-ativa">Home</NavLink>
+                        <NavLink exact to="/" activeClassName="pagina-ativa">Home</NavLink>
                     </li>
                     <li>
                         <NavLink to="/empresa" activeClassName="pagina-ativa">Empresa</NavLink>
