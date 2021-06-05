@@ -91,8 +91,9 @@ export const Navbar = styled.nav`
 `;
 
 export const Logo = styled.img`
-    width: 110px;
+    width: 100px;
     height: 90px;
+    padding-bottom: 12px;
     margin: 0 20px;
 `;
 
