@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
 import { 
     Phone, 
     EmailOutline, 
@@ -27,6 +28,8 @@ export const Content = styled.div`
     grid-template-areas: 
         "formSide contactInfoSide"
     ;
+
+    margin-bottom: 100px;
 `; 
 
 export const FormSide = styled.div`
@@ -35,8 +38,7 @@ export const FormSide = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 80px;
-    border: solid 1px black;
+    padding: 110px;
     
     form {
         display: flex;
@@ -55,6 +57,10 @@ export const FormSide = styled.div`
             padding: 10px;
             width: 520px;
             margin-bottom: 20px;
+        }
+
+        textarea {
+            min-height: 80px;
         }
     }
     
@@ -77,6 +83,7 @@ export const FormSide = styled.div`
 export const ContactInfoSide = styled.div`
     grid-area: contactInfoSide;
     display: flex;
+    justify-content: flex-start;
     flex-direction: column;
     padding: 75px;
 `;
@@ -105,51 +112,85 @@ export const Line = styled.hr`
 `;
 
 export const BottomInfo = styled.div`
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+`;
 
+const cssIcons = css`
+    color: var(--primary);
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+`;
+
+const cssIconsSocialMedias = css`
+    color: var(--primary);
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+
+    &:hover {
+        cursor: pointer;
+    }
+`;
+
+const infosContainer = css`
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+
+    p {
+        margin: 0;
+        font-size: 18px;
+        color: var(--tertiary);
+    }
 `;
 
 export const Contacts = styled.div`
-
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
 `;
 
 export const PhoneInfo = styled.div`
-
+    ${infosContainer}
 `;
 
 export const PhoneIcon = styled(Phone)`
-
+    ${cssIcons}
 `;
 
 export const EmailInfo = styled.div`
-
+    ${infosContainer}
 `;
 
 export const EmailIcon = styled(EmailOutline)`
-
+    ${cssIcons}
 `;
 
 export const OfficeHourInfo = styled.div`
-
+    ${infosContainer}
 `;
 
 export const ClockIcon = styled(Clock)`
-
+    ${cssIcons}
 `;
 
 export const SocialMedias = styled.div`
-
+    margin-top: 30px;
 `;
 
 export const FacebookIcon = styled(Facebook)`
-
+    ${cssIconsSocialMedias}
 `;
 
 export const InstagramIcon = styled(Instagram)`
-
+    ${cssIconsSocialMedias}
 `;
 
 export const TwitterIcon = styled(Twitter)`
-
+    ${cssIconsSocialMedias}
 `;
 
 

@@ -47,12 +47,12 @@ const Contact = () => {
                 </FormSide>
                 <ContactInfoSide>
                     <TopInfo>
-                        <Image src={ImagemContato} alt="deu merda"/>
+                        <Image src={ImagemContato} alt="ImagemContato.png"/>
                         <p>Por favor, preencha os campos ao lado com o máximo de informações para fácil entendimento</p>
                     </TopInfo>
                     <Line />
                     <BottomInfo>
-                        <h2>Detalhes de contato</h2>
+                        <h3>Detalhes de contato</h3>
                         <Contacts>
                             <PhoneInfo>
                                 <PhoneIcon />
