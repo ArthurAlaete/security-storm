@@ -27,6 +27,15 @@ import {
 } from './styles';
 
 const Contact = () => {
+
+    React.useEffect(() => {
+        restartScroll();
+    }, [])
+
+    function restartScroll() {
+        window.scrollTo(0, 0);
+    }
+
     return(
         <Container>
             <Header />
