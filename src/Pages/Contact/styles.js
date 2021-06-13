@@ -7,7 +7,7 @@ import {
     Facebook,
     Instagram,
     Twitter
-} from '../../styles/Icons';
+} from '../../Styles/Icons';
 
 export const Container = styled.div`
     display: grid;

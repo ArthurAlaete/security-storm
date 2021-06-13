@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { Facebook, Twitter, Instagram } from '../../styles/Icons';
+import { Facebook, Twitter, Instagram } from '../../Styles/Icons';
 
 export const Container  = styled.div`
     grid-area: footer;

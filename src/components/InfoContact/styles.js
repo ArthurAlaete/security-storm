@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { EmailOutline, Phone, Clock } from '../../styles/Icons'
+import { EmailOutline, Phone, Clock } from '../../Styles/Icons'
 
 export const Container = styled.div`
     grid-area: infoContact;
