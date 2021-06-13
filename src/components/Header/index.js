@@ -25,7 +25,7 @@ const Header = () => {
                         <div className="dropdown">
                             <NavLink to="/pentest" activeClassName="pagina-ativa">Pentest</NavLink>
                             <div className="dropdown-links">
-                                <Link to="">O que é Pentest?</Link>
+                                <Link to="/pentest">O que é Pentest?</Link>
                                 <Link to="">Fases de um Pentest</Link>
                                 <Link to="">Tipos de Pentest</Link>
                                 <Link to="">Relatórios gerais e técnicos</Link>
