@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Header from '../../Components/Header';
 import NavBanner from '../../Components/NavBanner';
 import Footer from '../../Components/Footer';
+import OthersMatters from '../../Components/OthersMatters';
 
 import MatterIMG from '../../Assets/images/engenharia_social.jpg';
 
@@ -12,10 +12,6 @@ import {
     Matter,
     MatterImage,
     MatterText,
-    OthersMatters,
-    Links,
-    KnowMore,
-    ReadToo
 } from './styles';
 
 const SocialEngeneering = () => {
@@ -30,24 +26,18 @@ const SocialEngeneering = () => {
                         CONTEÚDO
                     </MatterText>
                 </Matter>
-                <OthersMatters>
-                    <KnowMore>
-                        <h4>Saiba Mais</h4>
-                        <Links>
-                            <Link to="" className="links">- O que é pentest?</Link>
-                            <Link to="" className="links">- Fases de um pentest</Link>
-                            <Link to="" className="links">- Tipos de pentest</Link>
-                            <Link to="" className="links">- Relatórios Gerais e Técnicos</Link>
-                        </Links>
-                    </KnowMore>
-                    <ReadToo>
-                        <h4>Leia também</h4>
-                        <Links>
-                            <Link to="" className="links">- Ataques Hacker: o que os favorecem?</Link>
-                            <Link to="" className="links">- O que justifica realizar um pentest?</Link>
-                        </Links>
-                    </ReadToo>
-                </OthersMatters>
+                <OthersMatters 
+                    KnowMoreLinks={[
+                        { title: "O que é Pentest?", path: "" },
+                        { title: "Fases de um Pentest", path: "" },
+                        { title: "Tipos de Pentest", path: "" },
+                        { title: "Relatórios Gerais e Técnicos", path: "" },
+                    ]}
+                    ReadTooLinks={[
+                        { title: "Ataques Hacker: o que os favorecem?", path: "" },
+                        { title: "O que justifica realizar um Pnetest?", path: "" }
+                    ]}
+                />
             </Content>
             <Footer />
         </Container>
