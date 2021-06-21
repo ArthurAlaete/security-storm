@@ -39,7 +39,15 @@ export const MatterImage = styled.img`
     border-radius: 8px;   
 `;
 
-export const MatterText = styled.p`
+export const MatterTexts = styled.div`
+    display: flex;
+    flex-direction: column;
     margin-top: 45px;
     width: 100%;
+
+    h4 {
+        margin: 20px 0;
+        font-size: 25px;
+        font-weight: 500;
+    }
 `;
