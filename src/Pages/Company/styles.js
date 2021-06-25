@@ -16,26 +16,29 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
-    /* width: 100%; */
 `;
 
 export const WhoWeAre = styled.div`
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     margin-bottom: 40px;
+    margin-left: 50px;
+    padding: 25px;
 
     hr {
         border: none;
-        margin-bottom: 30px;
+        margin-left: 20px;
         width: 40px;
         height: 3px;
         background-color: #E78A40;
+        transform: rotate(90deg);
     }
 
     p {
         margin: 0;
+        margin-left: 20px;
         text-align: center;
         width: 400px;
         font-weight: bold;
@@ -48,132 +51,56 @@ export const Logo = styled.img`
     height: 180px;
 `;
 
-export const WhatWeDo = styled.div`
-    display: flex;
-    align-items: center;
-`;
-
-export const WhatWeDoBanner = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    width: 60%;
-    padding: 40px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    background-color: var(--primary);
-    margin: 15px 0;
-
-    hr {
-        border: none;
-        height: 3px;
-        width: 40px;
-        background-color: #E78A40;
-    }
-
-    h3 {
-        color: var(--white);
-    }
-
-    p {
-        text-align: start;
-        color: var(--white);
-        
-    }
-`;
-
-export const WhatWeDoImage = styled.img`
-    width: 200px;
-    height: 200px;
-    margin-left: 150px;
-`;
-
-export const HowWeDo = styled.div`
+export const WhatOurMission = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-start;
 `;
 
-export const HowWeDoBanner = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-self: flex-start;
-    width: 60%;
-    padding: 40px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    background-color: var(--primary);
-    margin: 15px 0;
-
-    hr {
-        border: none;
-        height: 3px;
-        width: 40px;
-        background-color: #E78A40;
-    }
-
-    h3 {
-        color: var(--white);
-    }
-
-    p {
-        text-align: start;
-        color: var(--white);
-        
-    }
-`;
-
-export const HowWeDoImage = styled.img`
-    width: 215px;
-    height: 215px;
+export const WhatOurMissionImage = styled.img`
+    width: 200px;
+    height: 200px;
     margin-left: 150px;
 `;
 
-export const Experiences = styled.div`
+export const WhatWeDo = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-end;
 `;
 
-export const ExperiencesBanner = styled.div`
+export const WhatWeDoImage = styled.img`
+    width: 200px;
+    height: 200px;
+    margin-right: 150px;
+`;
+
+export const HowWeDo = styled.div`
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    align-self: flex-end;
-    width: 60%;
-    padding: 40px;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    background-color: var(--primary);
-    margin: 15px 0;
+    align-items: center;
+    justify-content: flex-end;
+`;
 
-    .listaEx {
+export const HowWeDoImage = styled.img`
+    width: 215px;
+    height: 215px;
+    margin-right: 150px;
+`;
+
+export const Experiences = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .listExperiencies {
         display: flex;
-    }
-
-    hr {
-        border: none;
-        height: 3px;
-        width: 40px;
-        background-color: #E78A40;
-    }
-
-    h3 {
-        color: var(--white);
-    }
-
-    p {
-        text-align: end;
-        color: var(--white);
-        margin-left: 60px;
     }
 `;
 
 export const ExperiencesImage = styled.img`
-    width: 215px;
-    height: 215px;
-    margin-right: 150px;
+    width: 200px;
+    height: 200px;
+    margin-left: 150px;
 `;
 
 export const Contact = styled.div`
