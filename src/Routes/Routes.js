@@ -6,6 +6,7 @@ import Company from '../Pages/Company/index';
 import Pentest from '../Pages/Pentest/index';
 import SocialEngeneering from '../Pages/SocialEngineering';
 import Justification from '../Pages/Justification';
+import PentestTypes from '../Pages/PentestTypes';
 import Contact from '../Pages/Contact/index';
 
 const Routes = () => {
@@ -13,11 +14,12 @@ const Routes = () => {
         <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route exact path="/empresa" component={Company} />
+                <Route path="/empresa" component={Company} />
                 <Route path="/pentest" component={Pentest} />
                 <Route path="/engenharia-social" component={SocialEngeneering} />
                 <Route path="/justificacao" component={Justification} />
-                <Route exact path="/contato" component={Contact} />
+                <Route path="/tipos-pentest" component={PentestTypes} />
+                <Route path="/contato" component={Contact} />
             </Switch>
         </BrowserRouter>
     )
