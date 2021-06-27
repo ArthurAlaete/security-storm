@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from '../../Components/Header';
-import NavBanner from '../../Components/NavBanner';
-import Footer from '../../Components/Footer';
-import OthersMatters from '../../Components/OthersMatters';
+import Header from '../../components/Header';
+import NavBanner from '../../components/NavBanner';
+import Footer from '../../components/Footer';
+import OthersMatters from '../../components/OthersMatters';
 
 import MatterIMG from '../../Assets/images/engenharia_social.jpg';
 

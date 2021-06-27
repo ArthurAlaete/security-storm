@@ -7,7 +7,7 @@ import {
     Eye,
     People,
     Checklist
-} from '../../Styles/Icons';
+} from '../../styles/Icons';
 
 export const Container = styled.div`
     grid-area: infoServices;

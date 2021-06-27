@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../../Components/Header';
-import NavBanner from '../../Components/NavBanner';
-import Footer from '../../Components/Footer';
+import Header from '../../components/Header';
+import NavBanner from '../../components/NavBanner';
+import Footer from '../../components/Footer';
 import ImagemContato from '../../Assets/images/contato.png';
 
 import { 

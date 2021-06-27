@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Header from '../../Components/Header';
-import Carrossel from '../../Components/Carrossel';
-import InfoContact from '../../Components/InfoContact';
-import InfoServices from '../../Components/InfoServices';
-import Footer from '../../Components/Footer';
+import Header from '../../components/Header';
+import Carrossel from '../../components/Carrossel';
+import InfoContact from '../../components/InfoContact';
+import InfoServices from '../../components/InfoServices';
+import Footer from '../../components/Footer';
 
 import { Container } from './styles';
 

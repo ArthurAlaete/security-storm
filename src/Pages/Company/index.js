@@ -7,11 +7,11 @@ import WhatWeDoIMG from '../../Assets/images/o_que_fazemos.png';
 import ExperiencesIMG from '../../Assets/images/profissionais.png';
 import HowWeDoIMG from '../../Assets/images/como_trabalhamos.png';
 
-import Header from '../../Components/Header';
-import NavBanner from '../../Components/NavBanner';
-import RightBanner from '../../Components/RigthBanner';
-import LeftBanner from '../../Components/LeftBanner';
-import Footer from '../../Components/Footer';
+import Header from '../../components/Header';
+import NavBanner from '../../components/NavBanner';
+import RightBanner from '../../components/RigthBanner';
+import LeftBanner from '../../components/LeftBanner';
+import Footer from '../../components/Footer';
 
 import { 
     Container, 
