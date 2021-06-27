@@ -7,6 +7,7 @@ import Pentest from '../Pages/Pentest/index';
 import SocialEngeneering from '../Pages/SocialEngineering';
 import Justification from '../Pages/Justification';
 import PentestTypes from '../Pages/PentestTypes';
+import PentestPhases from '../Pages/PentestPhases';
 import Contact from '../Pages/Contact/index';
 
 const Routes = () => {
@@ -19,6 +20,7 @@ const Routes = () => {
                 <Route path="/engenharia-social" component={SocialEngeneering} />
                 <Route path="/justificacao" component={Justification} />
                 <Route path="/tipos-pentest" component={PentestTypes} />
+                <Route path="/fases-pentest" component={PentestPhases} />
                 <Route path="/contato" component={Contact} />
             </Switch>
         </BrowserRouter>
