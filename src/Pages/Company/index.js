@@ -40,9 +40,10 @@ const Company = () => {
             <Content>
                 <WhoWeAre>
                     <Logo src={LogoImage} />
-                    <hr /> {/*  Uma linhas um pouco grossa e curta */}
+                    <hr />
                     <p>
-                        Fundada desde 2021, somos uma empresa voltada para o ramo de segurança da informação.
+                        Fundada em 2021, somos uma empresa voltada para o ramo de segurança da informação.
+                        Levamos sempre uma tempestade de conhecimento e proteção para as organizações.
                     </p>
                 </WhoWeAre>
                 <WhatOurMission>
@@ -52,8 +53,7 @@ const Company = () => {
                         como as empresas se defendem contra ameaças virtuais e contribuir para o cenário 
                         global de segurança da informação. 
                         Acreditamos que se antecipar à possíveis ameaças virtuais é a melhor 
-                        forma de proteger os dados e informações contra ciberataques. 
-                        Com uma tempestade de segurança contribuimos para essa proteção."
+                        forma de proteger os dados e informações contra ciberataques."
                     />
                     <WhatOurMissionImage src={MissionIMG} />
                 </WhatOurMission>

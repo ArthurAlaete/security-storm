@@ -19,30 +19,57 @@ export const Content = styled.div`
 `;
 
 export const WhoWeAre = styled.div`
+    animation: moveAndFadeIn 1s ease-out forwards;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 40px;
-    margin-left: 50px;
+    margin-left: 70px;
     padding: 25px;
+    opacity: 0;
 
     hr {
+        animation: fadeIn 1s 1s ease-out forwards;
         border: none;
         margin-left: 20px;
         width: 40px;
         height: 3px;
         background-color: #E78A40;
         transform: rotate(90deg);
+        opacity: 0;
     }
 
     p {
+        animation: fadeIn 1s 1.8s ease-out forwards;
         margin: 0;
         margin-left: 20px;
         text-align: center;
-        width: 400px;
+        width: 480px;
         font-weight: bold;
+        font-size: 16px;
         color: var(--tertiary);
+        opacity: 0;
+    }
+
+    @keyframes moveAndFadeIn {
+        from {
+            opacity: 0;
+            transform: translateX(-200px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
     }
 `;
 
@@ -55,6 +82,7 @@ export const WhatOurMission = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    opacity: 1;
 `;
 
 export const WhatOurMissionImage = styled.img`
