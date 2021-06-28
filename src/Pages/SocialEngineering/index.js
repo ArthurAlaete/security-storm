@@ -1,4 +1,6 @@
 import React from 'react';
+
+import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import NavBanner from '../../components/NavBanner';
 import Footer from '../../components/Footer';
@@ -7,7 +9,6 @@ import OthersMatters from '../../components/OthersMatters';
 import MatterIMG from '../../Assets/images/engenharia_social.jpg';
 
 import { 
-    Container,
     Content,
     Matter,
     MatterImage,
@@ -16,7 +17,7 @@ import {
 
 const SocialEngeneering = () => {
     return (
-        <Container>
+        <Layout>
             <Header />
             <NavBanner currentPage="Engenharia Social" navPath="/engenharia social" />
             <Content>
@@ -95,7 +96,7 @@ const SocialEngeneering = () => {
                 />
             </Content>
             <Footer />
-        </Container>
+        </Layout>
     )
 }
 

@@ -1,4 +1,6 @@
 import React from 'react';
+
+import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import NavBanner from '../../components/NavBanner';
 import OthersMatters from '../../components/OthersMatters';
@@ -7,7 +9,6 @@ import Footer from '../../components/Footer';
 import MatterIMG from '../../Assets/images/justificacao.jpg';
 
 import { 
-    Container,
     Content,
     Matter,
     MatterImage,
@@ -16,7 +17,7 @@ import {
 
 const Justification = () => {
     return (
-        <Container>
+        <Layout>
             <Header />
             <NavBanner currentPage="O que justifica um Pentest?" navPath="/O que justifica um Pentest" />
             <Content>
@@ -82,7 +83,7 @@ const Justification = () => {
                 />
             </Content>
             <Footer />
-        </Container>
+        </Layout>
     )
 }
 

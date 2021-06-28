@@ -2,9 +2,11 @@ import React from 'react';
 
 import { Container } from './styles';
 
-const Layout = () => {
+const Layout = ({ children }) => {
     return (
-        <Container></Container>
+        <Container>
+            {children}
+        </Container>
     )
 }
 

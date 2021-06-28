@@ -1,11 +1,12 @@
 import React from 'react';
+
+import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import NavBanner from '../../components/NavBanner';
 import Footer from '../../components/Footer';
 import ImagemContato from '../../Assets/images/contato.png';
 
 import { 
-    Container, 
     Content, 
     FormSide, 
     ContactInfoSide, 
@@ -37,7 +38,7 @@ const Contact = () => {
     }
 
     return(
-        <Container>
+        <Layout>
             <Header />
             <NavBanner currentPage="Contato" navPath="/contato" />
             <Content>
@@ -85,7 +86,7 @@ const Contact = () => {
                 </ContactInfoSide>
             </Content>
             <Footer />
-        </Container>
+        </Layout>
     )
 }
 
