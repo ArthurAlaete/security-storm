@@ -9,6 +9,7 @@ import Justification from '../Pages/Justification';
 import PentestTypes from '../Pages/PentestTypes';
 import PentestPhases from '../Pages/PentestPhases';
 import GeneralReports from '../Pages/GeneralReports';
+import HackersAttacks from '../Pages/HackersAttacks';
 import Contact from '../Pages/Contact/index';
 
 const Routes = () => {
@@ -23,6 +24,7 @@ const Routes = () => {
                 <Route path="/tipos-pentest" component={PentestTypes} />
                 <Route path="/fases-pentest" component={PentestPhases} />
                 <Route path="/relatorios" component={GeneralReports} />
+                <Route path="/ataques" component={HackersAttacks} />
                 <Route path="/contato" component={Contact} />
             </Switch>
         </BrowserRouter>
