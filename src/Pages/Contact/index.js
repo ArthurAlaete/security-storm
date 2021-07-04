@@ -40,7 +40,7 @@ const Contact = () => {
     return(
         <Layout>
             <Header />
-            <NavBanner currentPage="Contato" navPath="/contato" />
+            <NavBanner currentPage="Contato" navPath="/ Contato" />
             <Content>
                 <FormSide>
                     <form>

@@ -19,7 +19,7 @@ const HackersAttacks = () => {
     return (
         <Layout>
             <Header />
-            <NavBanner currentPage="Ataques Hackers: O que os favorecem?" navPath="/ Ataques Hackers: O que os favorecem?" />
+            <NavBanner currentPage="Ataques Hackers: O que os favorecem?" navPath="/ Testes de Invasão / Ataques Hackers: O que os favorecem?" />
             <Content>
                 <Matter>
                     <MatterImage src={MatterIMG} />
@@ -148,14 +148,14 @@ const HackersAttacks = () => {
                 </Matter>
                 <OthersMatters 
                     KnowMoreLinks={[
-                        { title: "O que é Pentest?", path: "" },
-                        { title: "Fases de um Pentest", path: "" },
-                        { title: "Tipos de Pentest", path: "" },
-                        { title: "Relatórios Gerais e Técnicos", path: "" },
+                        { title: "O que é Pentest?", path: "/testes-invasao/pentest" },
+                        { title: "Fases de um Pentest", path: "/testes-invasao/fases-pentest" },
+                        { title: "Tipos de Pentest", path: "/testes-invasao/tipos-pentest" },
+                        { title: "Relatórios Gerais e Técnicos", path: "/testes-invasao/relatorios" },
                     ]}
                     ReadTooLinks={[
-                        { title: "Engenharia Social", path: "" },
-                        { title: "O que justifica realizar um Pentest?", path: "" },
+                        { title: "Engenharia Social", path: "/testes-invasao/engenharia-social" },
+                        { title: "O que justifica realizar um Pentest?", path: "/testes-invasao/justificacao" },
                     ]}
                 />
             </Content>

@@ -23,12 +23,12 @@ const Header = () => {
                     </li>
                     <li>
                         <div className="dropdown">
-                            <NavLink to="/pentest" activeClassName="pagina-ativa">Pentest</NavLink>
+                            <NavLink to="/testes-invasao" activeClassName="pagina-ativa">Testes de invasão</NavLink>
                             <div className="dropdown-links">
-                                <Link to="/pentest">O que é Pentest?</Link>
-                                <Link to="">Fases de um Pentest</Link>
-                                <Link to="">Tipos de Pentest</Link>
-                                <Link to="">Relatórios gerais e técnicos</Link>
+                                <Link to="/testes-invasao/pentest">O que é Pentest?</Link>
+                                <Link to="/testes-invasao/fases-pentest">Fases de um Pentest</Link>
+                                <Link to="/testes-invasao/tipos-pentest">Tipos de Pentest</Link>
+                                <Link to="/testes-invasao/relatorios">Relatórios gerais e técnicos</Link>
                             </div>
                         </div>
                     </li>

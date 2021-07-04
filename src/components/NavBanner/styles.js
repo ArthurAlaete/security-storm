@@ -19,12 +19,13 @@ export const NavControl = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
 
     .link {
         color: var(--white);
         font-weight: bold;
-        font-size: 14px;
-        text-transform: uppercase;
+        margin-right: 5px;
+        
     }
 
     p {
@@ -32,7 +33,5 @@ export const NavControl = styled.div`
         margin-right: 60px;
         font-weight: bold;
         margin-bottom: 0;
-        font-size: 14px;
-        text-transform: uppercase;
     }
 `;

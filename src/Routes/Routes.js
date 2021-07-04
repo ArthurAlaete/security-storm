@@ -18,13 +18,13 @@ const Routes = () => {
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/empresa" component={Company} />
-                <Route path="/pentest" component={Pentest} />
-                <Route path="/engenharia-social" component={SocialEngeneering} />
-                <Route path="/justificacao" component={Justification} />
-                <Route path="/tipos-pentest" component={PentestTypes} />
-                <Route path="/fases-pentest" component={PentestPhases} />
-                <Route path="/relatorios" component={GeneralReports} />
-                <Route path="/ataques" component={HackersAttacks} />
+                <Route path="/testes-invasao/pentest" component={Pentest} />
+                <Route path="/testes-invasao/engenharia-social" component={SocialEngeneering} />
+                <Route path="/testes-invasao/justificacao" component={Justification} />
+                <Route path="/testes-invasao/tipos-pentest" component={PentestTypes} />
+                <Route path="/testes-invasao/fases-pentest" component={PentestPhases} />
+                <Route path="/testes-invasao/relatorios" component={GeneralReports} />
+                <Route path="/testes-invasao/ataques" component={HackersAttacks} />
                 <Route path="/contato" component={Contact} />
             </Switch>
         </BrowserRouter>

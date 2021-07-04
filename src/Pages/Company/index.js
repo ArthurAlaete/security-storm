@@ -15,7 +15,6 @@ import LeftBanner from '../../components/LeftBanner';
 import Footer from '../../components/Footer';
 
 import { 
-    // Container, 
     Content,
     WhoWeAre,
     Logo,
@@ -37,7 +36,7 @@ const Company = () => {
     return (
         <Layout>
             <Header />
-            <NavBanner currentPage="Empresa" navPath="/empresa"/>
+            <NavBanner currentPage="Empresa" navPath="/ Empresa"/>
             <Content>
                 <WhoWeAre>
                     <Logo src={LogoImage} />

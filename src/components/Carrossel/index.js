@@ -25,7 +25,7 @@ const Carrossel = () => {
                 simular ataques de hackers. Essas avaliações são úteis para validar 
                 a eficácia dos mecanismos de defesa do aplicativo e dos servidores por trás dele.</p>
             </div>
-            <Link to="" className="carousel-link">Saiba mais</Link>
+            <Link to="/testes-invasao/pentest" className="carousel-link">Saiba mais</Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -41,7 +41,7 @@ const Carrossel = () => {
               <p>Todo computador, seja ele um servidor web, um notebook ou até mesmo um smartphone, 
                 que esteja conectado à internet, está sujeito a sofrer ataque hacker.</p>
             </div>
-            <Link to="" className="carousel-link">Saiba mais</Link>
+            <Link to="/testes-invasao/ataques" className="carousel-link">Saiba mais</Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -57,7 +57,7 @@ const Carrossel = () => {
               <p>Atualmente existem muitos casos de sequestro de dados através de vírus (ransomwares) em grandes e pequenas empresas, 
                 como farmácias e oficinas mecânicas, quem dirá escolas e repartições públicas.</p>
             </div>
-            <Link to="" className="carousel-link">Entenda melhor</Link>
+            <Link to="/testes-invasao/justificacao" className="carousel-link">Entenda melhor</Link>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

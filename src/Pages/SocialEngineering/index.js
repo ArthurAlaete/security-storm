@@ -19,7 +19,7 @@ const SocialEngeneering = () => {
     return (
         <Layout>
             <Header />
-            <NavBanner currentPage="Engenharia Social" navPath="/engenharia social" />
+            <NavBanner currentPage="Engenharia Social" navPath="/ Testes de Invasão / Engenharia social" />
             <Content>
                 <Matter>
                     <MatterImage src={MatterIMG} />
@@ -84,14 +84,14 @@ const SocialEngeneering = () => {
                 </Matter>
                 <OthersMatters 
                     KnowMoreLinks={[
-                        { title: "O que é Pentest?", path: "" },
-                        { title: "Fases de um Pentest", path: "" },
-                        { title: "Tipos de Pentest", path: "" },
-                        { title: "Relatórios Gerais e Técnicos", path: "" },
+                        { title: "O que é Pentest?", path: "/testes-invasao/pentest" },
+                        { title: "Fases de um Pentest", path: "/testes-invasao/fases-pentest" },
+                        { title: "Tipos de Pentest", path: "/testes-invasao/tipos-pentest" },
+                        { title: "Relatórios Gerais e Técnicos", path: "/testes-invasao/relatorios" },
                     ]}
                     ReadTooLinks={[
-                        { title: "Ataques Hacker: o que os favorecem?", path: "" },
-                        { title: "O que justifica realizar um Pnetest?", path: "" }
+                        { title: "Ataques Hacker: o que os favorecem?", path: "/testes-invasao/ataques" },
+                        { title: "O que justifica realizar um Pnetest?", path: "/testes-invasao/justificacao" }
                     ]}
                 />
             </Content>

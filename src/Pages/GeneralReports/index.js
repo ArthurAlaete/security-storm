@@ -15,11 +15,12 @@ import {
     MatterTexts,
 } from './styles';
 
-const GeneralReports = () => {
+const GeneralReports = ({ history }) => {
+
     return (
         <Layout>
             <Header />
-            <NavBanner currentPage="Relatórios Gerais e Técnicos" navPath="/Relatórios Gerais e Técnicos" />
+            <NavBanner currentPage="Relatórios Gerais e Técnicos" navPath="/ Testes de Invasão / Relatórios Gerais e Técnicos" />
             <Content>
                 <Matter>
                     <MatterImage src={MatterIMG} />
@@ -61,14 +62,14 @@ const GeneralReports = () => {
                 </Matter>
                 <OthersMatters 
                     KnowMoreLinks={[
-                        { title: "O que é Pentest?", path: "" },
-                        { title: "Fases de um Pentest", path: "" },
-                        { title: "Tipos de Pentest", path: "" },
+                        { title: "O que é Pentest?", path: "/testes-invasao/pentest" },
+                        { title: "Fases de um Pentest", path: "/testes-invasao/fases-pentest" },
+                        { title: "Tipos de Pentest", path: "/testes-invasao/tipos-pentest" },
                     ]}
                     ReadTooLinks={[
-                        { title: "Ataques Hacker: o que os favorecem?", path: "" },
-                        { title: "Engenharia Social", path: "" },
-                        { title: "O que justifica realizar um Pentest?", path: "" },
+                        { title: "Ataques Hacker: o que os favorecem?", path: "/testes-invasao/ataques" },
+                        { title: "Engenharia Social", path: "/testes-invasao/engenharia-social" },
+                        { title: "O que justifica realizar um Pentest?", path: "/testes-invasao/justificacao" },
                     ]}
                 />
             </Content>
