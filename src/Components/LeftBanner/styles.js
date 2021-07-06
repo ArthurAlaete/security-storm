@@ -10,7 +10,7 @@ export const Container = styled.div`
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     background-color: var(--primary);
-    margin: 15px 0;
+    margin: 30px 0;
 
     hr {
         border: none;
@@ -26,6 +26,5 @@ export const Container = styled.div`
     p {
         text-align: start;
         color: var(--white);
-        
     }
 `;

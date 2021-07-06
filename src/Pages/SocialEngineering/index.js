@@ -91,7 +91,7 @@ const SocialEngeneering = () => {
                     ]}
                     ReadTooLinks={[
                         { title: "Ataques Hacker: o que os favorecem?", path: "/testes-invasao/ataques" },
-                        { title: "O que justifica realizar um Pnetest?", path: "/testes-invasao/justificacao" }
+                        { title: "O que justifica realizar um Pentest?", path: "/testes-invasao/justificacao" }
                     ]}
                 />
             </Content>

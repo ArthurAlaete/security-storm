@@ -10,7 +10,7 @@ export const Container = styled.div`
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     background-color: var(--primary);
-    margin: 15px 0;
+    margin: 30px 0;
 
     hr {
         border: none;

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
     grid-area: othersMatters;
@@ -15,36 +15,31 @@ export const Container = styled.div`
     box-shadow: 2px 1px 8px 2px rgba(0, 0, 0, 0.1);
 `;
 
-export const KnowMore = styled.div`
+const contentStyle = css`
     margin-left: 40px;
     margin-top: 25px;
 
     h4 {
-        margin-bottom: 12px;
+        margin: 12px 0;
     }
 
-    .links {
+    .link {
         text-decoration: none;
         margin-top: 8px;
     }
 `;
 
+export const KnowMore = styled.div`
+   ${contentStyle}
+`;
+
 export const ReadToo = styled.div`
-    margin-left: 40px;
-    margin-top: 25px;
-
-    h4 {
-        margin-bottom: 12px;
-    }
-
-    .links {
-        text-decoration: none;
-        margin-top: 8px;
-    }
+    ${contentStyle}
 `;
 
 
 export const Links = styled.div`
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
 `;

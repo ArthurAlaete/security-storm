@@ -15,7 +15,7 @@ export const Container = styled.div`
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: center;
-    margin-top: 20px;
+    margin: 40px 0;
 `;
 
 export const ServicesContainer = styled.div`

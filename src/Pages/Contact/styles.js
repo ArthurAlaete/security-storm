@@ -27,7 +27,7 @@ export const FormSide = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 110px;
+    padding: 75px 110px;
     
     form {
         display: flex;
@@ -36,7 +36,6 @@ export const FormSide = styled.div`
         label {
             font-size: 20px;
             font-weight: 500;
-            /* color: 'black'; */
             margin-bottom: 18px;
         }
 

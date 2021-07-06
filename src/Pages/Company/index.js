@@ -42,8 +42,8 @@ const Company = () => {
                     <Logo src={LogoImage} />
                     <hr />
                     <p>
-                        Fundada em 2021, somos uma empresa voltada para o ramo de segurança da informação.
-                        Levamos sempre uma tempestade de conhecimento e proteção para as organizações.
+                        Fundada em 2021, somos uma empresa voltada para o ramo de segurança da informação, dispostos
+                        a levar uma tempestade de segurança para sua empresa e seus dados.
                     </p>
                 </WhoWeAre>
                 <WhatOurMission>
@@ -72,15 +72,15 @@ const Company = () => {
                     <LeftBanner title="Profissionais com uma larga experiência em:">
                         <div className="listExperiencies">
                             <p>
-                                Desenvolvimento de Sistemas;<br/>
                                 Sites;<br/>
                                 E-commerce;<br/>
                                 Aplicativos;<br/>
                                 Análise de vulnerabilidades;<br/>
+                                Testes de invasão;<br/>
                             </p>
                             <p>
-                                Testes de invasão;<br/>
                                 Modelagem de Dados;<br/>
+                                Desenvolvimento de Sistemas;<br/>
                                 Configurações de servidores;<br/>
                                 Configurações de Redes de computadores.<br/>
                             </p>

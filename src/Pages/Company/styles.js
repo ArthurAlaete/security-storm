@@ -8,18 +8,18 @@ export const Content = styled.div`
 `;
 
 export const WhoWeAre = styled.div`
-    animation: moveAndFadeIn 1s ease-out forwards;
+    animation: moveAndFadeIn 0.7s ease-out forwards;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-left: 70px;
-    padding: 25px;
+    padding: 40px;
     opacity: 0;
 
     hr {
-        animation: fadeIn 1s 1s ease-out forwards;
+        animation: fadeIn 1s 0.7s ease-out forwards;
         border: none;
         margin-left: 20px;
         width: 40px;
@@ -30,7 +30,7 @@ export const WhoWeAre = styled.div`
     }
 
     p {
-        animation: fadeIn 1s 1.8s ease-out forwards;
+        animation: fadeIn 1s 1.2s ease-out forwards;
         margin: 0;
         margin-left: 20px;
         text-align: center;
@@ -111,6 +111,10 @@ export const Experiences = styled.div`
 
     .listExperiencies {
         display: flex;
+
+        p {
+            margin-right: 20px;
+        }
     }
 `;
 
