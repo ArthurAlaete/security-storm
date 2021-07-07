@@ -36,7 +36,7 @@ const Company = () => {
     return (
         <Layout>
             <Header />
-            <NavBanner currentPage="Empresa" navPath="/ Empresa"/>
+            <NavBanner currentPage=" A empresa" navPath="/ A empresa"/>
             <Content>
                 <WhoWeAre>
                     <Logo src={LogoImage} />
@@ -112,7 +112,6 @@ const Company = () => {
                         <NavLink to="/contato" className="link">Entre em contato</NavLink>
                     </ContactContent>
                 </Contact>
-
             </Content>
             <Footer />
         </Layout>

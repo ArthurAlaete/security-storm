@@ -21,7 +21,7 @@ const Header = () => {
                         <NavLink exact to="/" activeClassName="pagina-ativa">Home</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/empresa" activeClassName="pagina-ativa">Empresa</NavLink>
+                        <NavLink to="/empresa" activeClassName="pagina-ativa">A empresa</NavLink>
                     </li>
                     <li>
                        <Dropdown /> 
