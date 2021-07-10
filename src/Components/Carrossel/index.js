@@ -14,14 +14,14 @@ const Carrossel = () => {
       <Carousel>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="carousel-imagem d-block w-100"
             src={Carrossel01}
             alt="First slide"
           />
           <Carousel.Caption>
             <div className="carousel-texto">
-              <h3>O que é Pentest?</h3>
-              <p>O Pentest é uma forma de detectar e explorar vulnerabilidades nos sistemas, ou seja, 
+              <h3 className="carousel-titulo">O que é Pentest?</h3>
+              <p className="carousel-paragrafo">O Pentest é uma forma de detectar e explorar vulnerabilidades nos sistemas, ou seja, 
                 simular ataques de hackers. Essas avaliações são úteis para validar 
                 a eficácia dos mecanismos de defesa do aplicativo e dos servidores por trás dele.</p>
             </div>
@@ -30,15 +30,15 @@ const Carrossel = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="carousel-imagem d-block w-100"
             src={Carrossel02}
             alt="Second slide"
           />
 
           <Carousel.Caption>
             <div className="carousel-texto">
-              <h3>Você pode está favorecendo um ataque hacker!</h3>
-              <p>Todo computador, seja ele um servidor web, um notebook ou até mesmo um smartphone, 
+              <h3 className="carousel-titulo">Você pode está favorecendo um ataque hacker!</h3>
+              <p className="carousel-paragrafo">Todo computador, seja ele um servidor web, um notebook ou até mesmo um smartphone, 
                 que esteja conectado à internet, está sujeito a sofrer ataque hacker.</p>
             </div>
             <Link to="/testes-invasao/ataques" className="carousel-link">Saiba mais</Link>
@@ -46,15 +46,15 @@ const Carrossel = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="carousel-imagem d-block w-100"
             src={Carrossel03}
             alt="Third slide"
           />
 
           <Carousel.Caption>
             <div className="carousel-texto">
-              <h3>O que justifica realizar um pentest?</h3>
-              <p>Atualmente existem muitos casos de sequestro de dados através de vírus (ransomwares) em grandes e pequenas empresas, 
+              <h3 className="carousel-titulo">O que justifica realizar um pentest?</h3>
+              <p className="carousel-paragrafo">Atualmente existem muitos casos de sequestro de dados através de vírus (ransomwares) em grandes e pequenas empresas, 
                 como farmácias e oficinas mecânicas, quem dirá escolas e repartições públicas.</p>
             </div>
             <Link to="/testes-invasao/justificacao" className="carousel-link">Entenda melhor</Link>

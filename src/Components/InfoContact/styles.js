@@ -9,18 +9,34 @@ export const Container = styled.div`
     align-items: center;
     background-color: var(--primary);
     margin: 1px 0px;
+
+
+    @media (max-width: 575.98px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 
 const cssIcon = css`
     color: var(--white);
     width: 48px;
     height: 48px;
+
+
+    @media (max-width: 575.98px) { 
+        width: 35px;
+        height: 35px;
+    }
 `;
 
 const subContainers = css`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 575.98px) { 
+        margin: 20px 0;
+    }
 `;
 
 const subContainersInfos = css`

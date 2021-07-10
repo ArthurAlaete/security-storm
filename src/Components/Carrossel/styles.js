@@ -10,7 +10,7 @@ export const Container = styled.div`
 
     .carousel-item {
         
-        img {
+        .carousel-imagem {
             height: 500px;
         }
 
@@ -22,8 +22,8 @@ export const Container = styled.div`
 
                 margin-bottom: 30px;
 
-                h3 {
-                    display: inline;
+                h3.carousel-titulo {
+                    display: inline-block;
                     font-weight: bold; 
                     background-color: rgba(255, 255, 255, 0.9); 
                     color: var(--secondary); 
@@ -60,5 +60,42 @@ export const Container = styled.div`
                 color: var(--white);
             }
         }
+    }
+
+
+    @media (max-width: 575.98px) { 
+        
+        .carousel-item {
+
+            .carousel-imagem {
+                height: 370px;
+            }
+
+            .carousel-caption {
+
+                .carousel-texto {
+    
+                    margin-bottom: 30px;
+    
+                    h3.carousel-titulo {
+                        font-size: 15px;
+                    }
+    
+                    p.carousel-paragrafo {
+                        font-size: 13px;
+                        margin-top: 20px; 
+                        margin-bottom: 20px; 
+                    }
+                }
+                
+                .carousel-link {
+                    font-size: 12px;
+                }
+
+            }
+
+        }
+
+        
     }
 `;

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 
+
 export const Container = styled.div`
     grid-area: header;
 
@@ -10,6 +11,11 @@ export const Container = styled.div`
     background-color: var(--white);
 
     height: 120px;
+
+    @media (max-width: 575.98px) { 
+        flex-direction: column;
+        height: 300px;
+    }
 `;
 
 export const Navbar = styled.nav`
@@ -45,7 +51,12 @@ export const Navbar = styled.nav`
             background-color: var(--tertiary);
             color: var(--white);
         }
-    } 
+
+        @media (max-width: 575.98px) { 
+            flex-direction: column;
+            padding: 20px;
+        }
+    }
 `;
 
 export const Logo = styled.img`
@@ -53,5 +64,12 @@ export const Logo = styled.img`
     height: 90px;
     padding-bottom: 12px;
     margin: 0 20px;
+
+    @media (max-width: 575.98px) { 
+        margin: 10px 20px;
+        padding-bottom: 0;
+    }
 `;
+
+
 
