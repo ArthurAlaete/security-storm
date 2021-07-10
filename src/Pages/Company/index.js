@@ -42,7 +42,7 @@ const Company = () => {
                     <Logo src={LogoImage} />
                     <hr />
                     <p>
-                        Fundada em 2021, somos uma empresa voltada para o ramo de segurança da informação, dispostos
+                        Fundada em 2021, somos uma empresa voltada para o ramo de segurança da informação, disposta
                         a levar uma tempestade de segurança para sua empresa e seus dados.
                     </p>
                 </WhoWeAre>

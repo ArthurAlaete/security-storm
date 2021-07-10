@@ -3,6 +3,11 @@ import styled from 'styled-components';
 export const Container = styled.div`
     grid-area: carousel;
 
+    .carousel-control-prev:hover, 
+    .carousel-control-next:hover {
+        transform: scale(1.5);
+    }
+
     .carousel-item {
         
         img {
@@ -14,6 +19,7 @@ export const Container = styled.div`
             margin-bottom: 20px;
 
             .carousel-texto {
+
                 margin-bottom: 30px;
 
                 h3 {
@@ -55,5 +61,4 @@ export const Container = styled.div`
             }
         }
     }
-    
 `;
