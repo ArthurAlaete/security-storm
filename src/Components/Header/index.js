@@ -7,15 +7,21 @@ import Dropdown from '../Dropdown';
 import { 
     Container, 
     Logo, 
-    Navbar 
+    Navbar, 
+    Toggle
 } from './styles';
 
 const Header = () => {
+
+    const [toggleActivated, setToggleActivated] = React.useState(false);
+
     return (
         <Container>
             <Logo src={LogoImage} />
-            
-            <Navbar>
+            <Toggle onClick={() => setToggleActivated(!toggleActivated)} className={toggleActivated ? 'activated' : ''}>
+                <div className="row" />
+            </Toggle>
+            <Navbar className={toggleActivated ? 'show' : ''} >
                 <ul>
                     <li>
                         <NavLink exact to="/" activeClassName="pagina-ativa">Home</NavLink>
