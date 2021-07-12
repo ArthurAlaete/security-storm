@@ -28,6 +28,20 @@ export const DropdownView = styled.div`
         background-color: var(--tertiary);
         color: var(--white);
     }
+
+    @media (max-width: 575.98px) { 
+        margin-left: 20px;
+
+        &.activated {
+            background-color: transparent;
+            color:#000;
+        }
+
+        &:hover {
+            background-color: transparent;
+            color: #000;
+        }
+    }
 `;
 
 export const ArrowIcon = styled(ArrowIosDownwardOutline)`
@@ -73,6 +87,44 @@ export const DropdownLinks = styled.div`
             to {
                 opacity: 1;
                 transform: translateY(0);
+            }
+        }
+
+
+        @media (max-width: 575.98px) { 
+            position: relative;
+            flex-direction: column;
+            background-color: var(--white);
+            align-items: center;
+            width: 100%;
+            opacity: 0;
+            margin-top: 4px;
+            box-shadow: none;
+            z-index: 2;
+            overflow: hidden;
+
+            a.links {
+                color: var(--tertiary);
+                font-style: italic;
+            }
+
+            &::after {
+                content: '';
+                animation: teste 0.4s ease-in forwards;
+                position: absolute;
+                width: 50px;
+                height: 2px;
+                margin-bottom: 4px;
+                background-color: var(--primary);
+            }
+
+            @keyframes teste {
+                from {
+                    width: 0;
+                }
+                to {
+                    width: 50px;
+                }
             }
         }
 `;

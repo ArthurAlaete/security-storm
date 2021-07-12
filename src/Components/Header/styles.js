@@ -52,8 +52,9 @@ export const Navbar = styled.nav`
     }
 
     @media (max-width: 575.98px) { 
-        animation: slideDown 1s ease-out forwards;
+        animation: slideDown 0.4s ease-out forwards;
         display: none;
+        width: 100%;
 
         &.show {
             display: flex;
@@ -63,6 +64,17 @@ export const Navbar = styled.nav`
             ul {
                 flex-direction: column;
                 padding: 10px;
+
+                .pagina-ativa {
+                    background: transparent;
+                    font-weight: bold;
+                    color: var(--tertiary);
+                }
+
+                a:hover {
+                    background: transparent;
+                    color: var(--tertiary);
+                }
             }
         }
 
