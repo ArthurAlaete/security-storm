@@ -25,6 +25,10 @@ export const ServicesContainer = styled.div`
     flex-direction: column;
     padding: 40px;
     width: 400px;
+
+    @media (max-width: 767.98px) { 
+        padding: 25px 40px;
+    }
 `;
 
 export const ServiceInfo = styled.div`
@@ -34,6 +38,22 @@ export const ServiceInfo = styled.div`
     justify-content: center;
     text-align: center;
     margin-top: 20px;
+
+    @media (max-width: 767.98px) { 
+        h3 {
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        h3 {
+            font-size: 25px;
+        }
+    }
 `; 
 
 
@@ -41,6 +61,12 @@ export const cssIcons = css`
     width: 55px;
     height: 55px;
     color: var(--primary);
+
+
+    @media (max-width: 767.98px) { 
+        width: 45px;
+        height: 45px;
+    }
 `;
 
 export const AlertIcon = styled(AlertTriangle)`

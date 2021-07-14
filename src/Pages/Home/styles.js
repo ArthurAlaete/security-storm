@@ -12,10 +12,10 @@ export const Container = styled.div`
     "footer footer"
     ;
 
-    @media (max-width: 575.98px) { 
+    @media (max-width: 767.98px) { 
         overflow: hidden;
         grid-template-rows: auto auto auto auto 250px;
-        grid-template-columns: 100vw;
+        grid-template-columns: 100vw; 
         grid-template-areas: 
         "header"
         "carousel"

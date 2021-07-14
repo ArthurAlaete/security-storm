@@ -10,7 +10,7 @@ export const Container = styled.div`
     justify-content: space-between;
     background-color: var(--white);
 
-    @media (max-width: 575.98px) { 
+    @media (max-width: 767.98px) { 
         flex-direction: column;
     }
 `;
@@ -51,7 +51,7 @@ export const Navbar = styled.nav`
         }
     }
 
-    @media (max-width: 575.98px) { 
+    @media (max-width: 767.98px) { 
         animation: slideDown 0.4s ease-out forwards;
         display: none;
         width: 100%;
@@ -64,6 +64,7 @@ export const Navbar = styled.nav`
             ul {
                 flex-direction: column;
                 padding: 10px;
+                margin-right: 5px;
 
                 .pagina-ativa {
                     background: transparent;
@@ -86,6 +87,18 @@ export const Navbar = styled.nav`
             to {
                 transform: translateY(0);
                 opacity: 1;
+            }
+        }
+    }
+
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        ul {
+            a {
+                font-size: 17px;
+            }
+            li {
+                margin: 0 6px;
             }
         }
     }
@@ -153,7 +166,7 @@ export const Toggle = styled.div`
         }
     }
 
-    @media (max-width: 575.98px) { 
+    @media (max-width: 767.98px) { 
         display: flex;
     }
 `;
@@ -164,7 +177,7 @@ export const Logo = styled.img`
     padding-bottom: 12px;
     margin: 0 20px;
 
-    @media (max-width: 575.98px) { 
+    @media (max-width: 767.98px) { 
         margin: 10px 20px;
         padding-bottom: 0;
     }

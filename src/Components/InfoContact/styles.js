@@ -11,7 +11,7 @@ export const Container = styled.div`
     margin: 1px 0px;
 
 
-    @media (max-width: 575.98px) {
+    @media (max-width: 767.98px) {
         flex-direction: column;
         align-items: center;
     }
@@ -23,7 +23,7 @@ const cssIcon = css`
     height: 48px;
 
 
-    @media (max-width: 575.98px) { 
+    @media (max-width: 767.98px) { 
         width: 35px;
         height: 35px;
     }
@@ -34,8 +34,10 @@ const subContainers = css`
     justify-content: center;
     align-items: center;
 
-    @media (max-width: 575.98px) { 
-        margin: 20px 0;
+    @media (max-width: 767.98px) { 
+        margin: 25px 0;
+        min-width: 230px;
+        justify-content: flex-start;
     }
 `;
 
@@ -55,6 +57,26 @@ const subContainersInfos = css`
         font-size: 19px;
         color: var(--white);
         font-weight: bold;
+    }
+
+    @media (max-width: 767.98px) { 
+        p {
+            font-size: 14px;
+        }
+
+        span {
+            font-size: 15px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+        p {
+            font-size: 15px;
+        }
+
+        span {
+            font-size: 16px;
+        }
     }
 `;
 
@@ -93,4 +115,3 @@ export const EmailIcon = styled(EmailOutline)`
 export const EmailInfo = styled.div`
     ${subContainersInfos}
 `;
-

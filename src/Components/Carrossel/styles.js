@@ -17,6 +17,7 @@ export const Container = styled.div`
         .carousel-caption {
 
             margin-bottom: 20px;
+            z-index: 1;
 
             .carousel-texto {
 
@@ -63,18 +64,13 @@ export const Container = styled.div`
     }
 
 
-    @media (max-width: 575.98px) { 
-        
+    @media (max-width:767.98px) { 
         .carousel-item {
-
             .carousel-imagem {
                 height: 370px;
             }
-
             .carousel-caption {
-
                 .carousel-texto {
-    
                     margin-bottom: 30px;
     
                     h3.carousel-titulo {
@@ -86,16 +82,33 @@ export const Container = styled.div`
                         margin-top: 20px; 
                         margin-bottom: 20px; 
                     }
-                }
-                
+                }   
                 .carousel-link {
                     font-size: 12px;
                 }
-
             }
-
-        }
-
-        
+        } 
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+        .carousel-item {
+            .carousel-imagem {
+                height: 400px;
+            }
+            .carousel-caption {
+                .carousel-texto {
+                    margin-bottom: 30px;
+    
+                    h3.carousel-titulo {
+                        font-size: 17px;
+                    }
+    
+                    p.carousel-paragrafo {
+                        font-size: 15px;
+                        margin-top: 20px; 
+                        margin-bottom: 20px; 
+                    }
+                }   
+            }
+        } 
     }
 `;

@@ -29,7 +29,7 @@ export const DropdownView = styled.div`
         color: var(--white);
     }
 
-    @media (max-width: 575.98px) { 
+    @media (max-width: 767.98px) { 
         margin-left: 20px;
 
         &.activated {
@@ -40,6 +40,12 @@ export const DropdownView = styled.div`
         &:hover {
             background-color: transparent;
             color: #000;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        p {
+            font-size: 17px;
         }
     }
 `;
@@ -91,7 +97,7 @@ export const DropdownLinks = styled.div`
         }
 
 
-        @media (max-width: 575.98px) { 
+        @media (max-width: 767.98px) { 
             position: relative;
             flex-direction: column;
             background-color: var(--white);
@@ -110,7 +116,7 @@ export const DropdownLinks = styled.div`
 
             &::after {
                 content: '';
-                animation: teste 0.4s ease-in forwards;
+                animation: rowAnimation 0.4s ease-in forwards;
                 position: absolute;
                 width: 50px;
                 height: 2px;
@@ -118,7 +124,7 @@ export const DropdownLinks = styled.div`
                 background-color: var(--primary);
             }
 
-            @keyframes teste {
+            @keyframes rowAnimation {
                 from {
                     width: 0;
                 }

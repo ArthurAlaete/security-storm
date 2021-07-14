@@ -18,6 +18,11 @@ const cssIcons = css`
     height: 35px;
     color: var(--white);
     margin: 10px;
+
+    @media (max-width: 767.98px) {
+        width: 30px;
+        height: 30px;
+    }
 `;
 
 export const FacebookIcon = styled(Facebook)`
@@ -45,6 +50,12 @@ export const FooterInfo = styled.div`
 
     span {  
         font-weight: bold;
+    }
+
+    @media (max-width: 767.98px) {
+        p {
+            font-size: 15px;
+        }
     }
 
 `;
