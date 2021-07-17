@@ -12,6 +12,7 @@ import PentestPhases from '../Pages/PentestPhases';
 import GeneralReports from '../Pages/GeneralReports';
 import HackersAttacks from '../Pages/HackersAttacks';
 import Contact from '../Pages/Contact/index';
+import PageNotFound from '../Pages/PageNotFound';
 
 const Routes = () => {
     return (
@@ -28,6 +29,7 @@ const Routes = () => {
                 <Route path="/testes-invasao/relatorios" component={GeneralReports} />
                 <Route path="/testes-invasao/ataques" component={HackersAttacks} />
                 <Route path="/contato" component={Contact} />
+                <Route path="*" component={PageNotFound} />
             </Switch>
         </BrowserRouter>
     )
