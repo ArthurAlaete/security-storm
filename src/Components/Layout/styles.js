@@ -9,4 +9,17 @@ export const Container = styled.div`
         "content content"
         "footer footer"
     ;
+
+    @media (max-width: 767.98px) { 
+        overflow: hidden;
+        grid-template-rows: auto 130px auto auto 250px;
+        grid-template-columns: 100vw; 
+        grid-template-areas: 
+        "header"
+        "navBanner"
+        "content"
+        "footer"
+        "footer"
+        ;
+    }
 `;

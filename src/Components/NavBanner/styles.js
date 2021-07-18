@@ -34,4 +34,10 @@ export const NavControl = styled.div`
         font-weight: bold;
         margin-bottom: 0;
     }
+
+
+    @media (max-width: 767.98px) {
+        display: none;
+    }
+
 `;

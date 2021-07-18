@@ -11,15 +11,27 @@ import {
 
 export const Content = styled.div`
     grid-area: content;
-
+    margin-bottom: 100px;
     display: grid;
     grid-template-columns: 60% 1fr;
     grid-template-areas: 
         "formSide contactInfoSide"
     ;
 
-    margin-bottom: 100px;
+
+    @media (max-width: 767.98px) { 
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "formSide";
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px)  { 
+        grid-template-columns: 55% 1fr;
+        grid-template-areas: 
+        "formSide contactInfoSide";
+    }
 `; 
+
 
 export const FormSide = styled.div`
     grid-area: formSide;
@@ -66,6 +78,38 @@ export const FormSide = styled.div`
     button:hover {
         background-color: var(--tertiary);
     }
+
+    @media (max-width: 767.98px) {
+        
+        padding: 75px 20px;
+        align-items: center;
+
+        form {
+            input, textarea {
+                width: 350px;
+            }
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        padding: 75px 0px;
+        align-items: center;
+
+        form {
+            input, textarea {
+                width: 350px;
+            }
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        form {
+            input, textarea {
+                width: 420px;
+            }
+        }
+    }
+    
 `;
 
 export const ContactInfoSide = styled.div`
@@ -73,7 +117,12 @@ export const ContactInfoSide = styled.div`
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 75px;
+    padding: 75px 40px;
+
+    @media (max-width: 767.98px) { 
+        display: none;
+        padding: 75px 0px;
+    }
 `;
 
 export const TopInfo = styled.div`
@@ -85,6 +134,12 @@ export const TopInfo = styled.div`
     p {
         color: var(--tertiary);
         font-size: 16px;
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        p {
+            font-size: 14px;
+        }
     }
 `;
 
@@ -103,6 +158,16 @@ export const BottomInfo = styled.div`
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        h3 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
 `;
 
 const cssIcons = css`
@@ -120,6 +185,12 @@ const cssIconsSocialMedias = css`
 
     &:hover {
         cursor: pointer;
+    }
+
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        height: 25px;
+        width: 25px;
     }
 `;
 
