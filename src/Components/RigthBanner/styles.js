@@ -28,4 +28,8 @@ export const Container = styled.div`
         color: var(--white);
         margin-left: 60px;
     }
+
+    @media(max-width: 767.98px) {
+        width: 90%;
+    } 
 `;

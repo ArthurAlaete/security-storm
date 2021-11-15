@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Content = styled.div`
     grid-area: content;
@@ -60,11 +60,34 @@ export const WhoWeAre = styled.div`
             opacity: 1;
         }
     }
+
+
+    @media (max-width: 767.98px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+
+        p {
+            width: 380px;
+            margin: 0;
+            font-size: 14px;
+        }
+
+        hr {
+            margin-left: 0;
+            transform: rotate(0);
+        }
+    }
 `;
 
 export const Logo = styled.img`
     width: 180px;
     height: 180px;
+`;
+
+const responsiveIMG = css`
+    display: none;
 `;
 
 export const WhatOurMission = styled.div`
@@ -78,6 +101,10 @@ export const WhatOurMissionImage = styled.img`
     width: 200px;
     height: 200px;
     margin-left: 150px;
+
+    @media(max-width: 767.98px) {
+        ${responsiveIMG}
+    }
 `;
 
 export const WhatWeDo = styled.div`
@@ -90,6 +117,10 @@ export const WhatWeDoImage = styled.img`
     width: 200px;
     height: 200px;
     margin-right: 150px;
+
+    @media(max-width: 767.98px) {
+        ${responsiveIMG}
+    }
 `;
 
 export const HowWeDo = styled.div`
@@ -102,6 +133,10 @@ export const HowWeDoImage = styled.img`
     width: 215px;
     height: 215px;
     margin-right: 150px;
+
+    @media(max-width: 767.98px) {
+        ${responsiveIMG}
+    }
 `;
 
 export const Experiences = styled.div`
@@ -122,6 +157,10 @@ export const ExperiencesImage = styled.img`
     width: 200px;
     height: 200px;
     margin-left: 150px;
+
+    @media(max-width: 767.98px) {
+        ${responsiveIMG}
+    }
 `;
 
 export const Contact = styled.div`
@@ -173,5 +212,11 @@ export const ContactContent = styled.div`
 
     .link:hover {
         background-color: var(--tertiary);
+    }
+
+    @media(max-width: 767.98px) {
+        p {
+            max-width: 60%;
+        }
     }
 `;

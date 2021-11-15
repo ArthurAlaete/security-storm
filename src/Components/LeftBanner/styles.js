@@ -27,4 +27,8 @@ export const Container = styled.div`
         text-align: start;
         color: var(--white);
     }
+
+    @media(max-width: 767.98px) {
+        width: 90%;
+    } 
 `;
