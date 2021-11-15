@@ -1,18 +1,6 @@
 import styled from 'styled-components';
 
-export const Content = styled.div`
-    grid-area: content;
-
-    display: grid;
-    grid-template-columns: 60% 1fr;
-    grid-template-areas: 
-        "matter othersMatters"
-    ;
-
-    margin-bottom: 80px;
-`;
-
-export const Matter = styled.div`
+export const Container = styled.div`
     grid-area: matter;
 
     display: flex;
@@ -22,13 +10,17 @@ export const Matter = styled.div`
     margin-left: 10px;
 `;
 
-export const MatterImage = styled.img`
+export const Image = styled.img`
     width: 700x;
     height: 300px;
     border-radius: 8px;   
+
+    @media(max-width: 767.98px) {
+        width: 90%;
+    }
 `;
 
-export const MatterTexts = styled.p`
+export const Content = styled.p`
     display: flex;
     flex-direction: column;
     margin-top: 45px;

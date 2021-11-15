@@ -10,4 +10,13 @@ export const Content = styled.div`
     ;
 
     margin-bottom: 80px;
+
+
+    @media(max-width: 767.98px) {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "matter"
+        "othersMatters"
+    ;
+    }
 `;
