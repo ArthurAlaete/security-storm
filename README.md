@@ -16,7 +16,19 @@ This project is about the creation of a website for a fictitious company that wo
 5. Bootstrap
 <br>
 
-## Running the project 🔥 
+<!--
+## Installation 
+
+```bash
+#Clone the repository
+$ git clone https://github.com/ArthurAlaete/security_storm.git
+
+#Installing dependencies
+$ yarn install #(recommended)
+```
+-->
+
+## Running the project 🔥
 
 1. Clone the repository: `git clone https://github.com/ArthurAlaete/security_storm.git`
 2. Inside the project folder, run the command `yarn install`(recommended) or `npm install` in your terminal to install the dependencies.
