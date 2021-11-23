@@ -1,10 +1,13 @@
 import React from 'react';
 
-import Layout from '../../Components/Layout';
-import Header from '../../Components/Header';
-import NavBanner from '../../Components/NavBanner';
-import Footer from '../../Components/Footer';
 import ImagemContato from '../../Assets/images/contato.png';
+
+import {
+    Layout, 
+    Header,
+    NavBanner, 
+    Footer, 
+} from '../../Components';
 
 import { 
     Content, 

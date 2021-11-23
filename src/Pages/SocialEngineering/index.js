@@ -1,24 +1,23 @@
 import React from 'react';
 
-import Layout from '../../Components/Layout';
-import Header from '../../Components/Header';
-import NavBanner from '../../Components/NavBanner';
-import Matter from '../../Components/Matter'
-import Footer from '../../Components/Footer';
-import OthersMatters from '../../Components/OthersMatters';
-
 import MatterIMG from '../../Assets/images/engenharia_social.jpg';
 
-import { 
-    Content,
-} from './styles';
+import {
+    Layout, 
+    Header,
+    NavBanner,
+    MatterArea,
+    Matter,
+    OthersMatters, 
+    Footer, 
+} from '../../Components';
 
 const SocialEngeneering = () => {
     return (
         <Layout>
             <Header />
             <NavBanner currentPage="Engenharia Social" navPath="/ Testes de Invasão / Engenharia social" />
-            <Content>
+            <MatterArea>
                 <Matter matterIMG={MatterIMG}>
                     <p>
                         A engenharia social, no contexto de segurança da informação, refere-se a manipulação 
@@ -89,7 +88,7 @@ const SocialEngeneering = () => {
                         { title: "O que justifica realizar um Pentest?", path: "/testes-invasao/justificacao" }
                     ]}
                 />
-            </Content>
+            </MatterArea>
             <Footer />
         </Layout>
     )

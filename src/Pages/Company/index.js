@@ -7,12 +7,14 @@ import WhatWeDoIMG from '../../Assets/images/o_que_fazemos.png';
 import ExperiencesIMG from '../../Assets/images/profissionais.png';
 import HowWeDoIMG from '../../Assets/images/como_trabalhamos.png';
 
-import Layout from '../../Components/Layout';
-import Header from '../../Components/Header';
-import NavBanner from '../../Components/NavBanner';
-import RightBanner from '../../Components/RigthBanner';
-import LeftBanner from '../../Components/LeftBanner';
-import Footer from '../../Components/Footer';
+import {
+    Layout, 
+    Header,
+    NavBanner, 
+    RightBanner, 
+    LeftBanner, 
+    Footer, 
+} from '../../Components';
 
 import { 
     Content,

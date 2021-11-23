@@ -1,14 +1,17 @@
 import React from 'react';
 
-import Layout from '../../Components/Layout';
-import Header from '../../Components/Header';
-import NavBanner from '../../Components/NavBanner';
-import MatterArea from '../../Components/MatterArea';
-import Matter from '../../Components/Matter';
-import OthersMatters from '../../Components/OthersMatters';
-import Footer from '../../Components/Footer';
-
 import MatterIMG from '../../Assets/images/ataques.png';
+
+import {
+    Layout, 
+    Header,
+    NavBanner,
+    MatterArea,
+    Matter,
+    OthersMatters, 
+    Footer, 
+} from '../../Components';
+
 
 const HackersAttacks = () => {
     return (
