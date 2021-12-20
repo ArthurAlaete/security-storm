@@ -1,7 +1,7 @@
 ![index](https://user-images.githubusercontent.com/54222632/142553453-38a9e791-c446-4551-80aa-e03af10fa41e.gif)
 <br>
 <br>
-# Seurity Storm ✨
+# Security Storm ✨
 
 This project is about the creation of a website for a fictitious company that works in the information security area. The goal was to put my front-end development skills into practice.
 <br>
